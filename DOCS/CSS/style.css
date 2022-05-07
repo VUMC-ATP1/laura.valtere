@@ -11,7 +11,7 @@ div {
     height: 30px;
     width: 100%;
     background-color: blueviolet;
-    position: fixed;
+    position: relative;
     z-index: 1;
 }
 
@@ -27,7 +27,7 @@ div {
     width: 45px;
     background-color: rgb(251, 127, 255);
     float: left;
-    position: fixed;
+    position: relative;
 }
 
 .right-side {
@@ -60,4 +60,12 @@ li {
     font-family: 'Tapestry', cursive;
     float: right;
     margin-top: 10px;
+}
+
+.photo {
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    right: 5%;
+    top: 5%;
 }
