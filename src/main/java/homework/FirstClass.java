@@ -10,27 +10,27 @@ public class FirstClass {
         System.out.println(greeting + " Let me " + verb + " tell you about beautiful island " + island);
 
 
-        int iedzivotajuSkaits = 525285;
-        System.out.printf("Maltas iedzivotaju skaits uz 2020 gadu ir %d\n", iedzivotajuSkaits);
+        int maltasPopulation = 525285;
+        System.out.printf("Maltas iedzivotaju skaits uz 2020 gadu ir %d\n", maltasPopulation);
 
-        short maltasPlatiba = 316;
-        System.out.printf("Bet platiba ir %d\n", maltasPlatiba);
+        short maltasSpace = 316;
+        System.out.printf("Bet platiba ir %d\n", maltasSpace);
 
-        String maltasValoda = "Maltijas valoda";
-        System.out.println("Malta runa " + maltasValoda);
+        String maltasLanguage = "Maltijas valoda";
+        System.out.println("Malta runa " + maltasLanguage);
 
-        String maltasPilseta = "Valleta";
-        System.out.println("Galvaspilseta ir " + maltasPilseta);
+        String maltasCity = "Valleta";
+        System.out.println("Galvaspilseta ir " + maltasCity);
 
-        boolean irES = true;
-        if (irES) {
-            System.out.printf("Malta ir ES dalibvalsts: %b\n", irES);
+        boolean isES = true;
+        if (isES) {
+            System.out.printf("Malta ir ES dalibvalsts: %b\n", isES);
         } else {
-            System.out.printf("Malta nav ES dalibvalsts: %b\n", irES);
+            System.out.printf("Malta nav ES dalibvalsts: %b\n", isES);
         }
 
-        char maltasValuta = '€';
-        System.out.println("Maltas valuta ir: " + maltasValuta);
+        char maltasCurrency = '€';
+        System.out.println("Maltas valuta ir: " + maltasCurrency);
 
         String knowledgeLevel = "basic";
         String wish = "Good Luck!";
