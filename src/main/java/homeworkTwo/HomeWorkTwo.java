@@ -133,4 +133,5 @@ public class HomeWorkTwo {
     public static double average(double a, double b, double c) {
         return double;
             }
+            
 }
